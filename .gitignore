@@ -1,0 +1,11 @@
+node_modules/
+.npm-cache/
+.transpiled-server/
+.transpiled-client/
+dist/
+.env
+.env.local
+coverage/
+uploads/
+*.log
+server/storage/

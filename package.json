@@ -1,0 +1,13 @@
+{
+  "name": "manhwa-pdf-reader",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev:server": "npm --workspace server run dev",
+    "dev:worker": "npm --workspace server run worker",
+    "dev:client": "npm --workspace client run dev",
+    "build": "npm --workspace server run build && npm --workspace client run build",
+    "start": "npm --workspace server run start",
+    "start:worker": "npm --workspace server run start:worker"
+  }
+}
